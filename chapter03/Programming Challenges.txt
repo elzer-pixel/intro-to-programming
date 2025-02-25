@@ -1,0 +1,63 @@
+//PROGRAMMING CHALLENGES 
+//  1. New insults
+
+let bodyParts = ["Arm", "Finger", "Ankle", "Eye"];
+let myAdjectives = ["worthless", "creepy", "filthy"];
+let myAnimals = ["Fish", "Spider", "Worm"];
+
+//Picking a random body part from the body parts array:
+let myRandomBodyPart = bodyParts[Math.floor(Math.random() * bodyParts.length)];
+
+//Picking a random insulting word from the adjectives array:
+let myRandomAdjective = myAdjectives[Math.floor(Math.random() * myAdjectives.length)];
+
+//Picking a random animal from the animals array:
+let myRandomAnimal = myAnimals[Math.floor(Math.random() * myAnimals.length)];
+
+//Getting our insult Generator:
+let myRandomInsult = "Your " + myRandomBodyPart + " is like a " + myRandomAdjective + " " + myRandomAnimal + "!!!";
+
+// Executing the random generator.
+myRandomInsult;
+
+'Your Ankle is like a worthless Worm!!!'
+
+// Turning the myRandomInsult into an array in order to use the join method.
+myRandomInsult = ["Your", myRandomBodyPart, "is", "like", "a", myRandomAdjective, myRandomAnimal + "!!!"].join(" ");
+
+myRandomInsult;
+
+'Your Finger is like a filthy Fish!!!'
+
+
+
+// 2. More Sophisticated Insults:
+
+let myAnimalBodyParts = ["claw", "leg", "trunk", "fur"];
+
+// Getting a random index from the myAnimalBodyParts
+let myRandomAnimalPart = myAnimalBodyParts[Math.floor(Math.random())];
+
+
+//3. Reassigning our random insult variable, and using the addition operator.
+myRandomInsult = "Your " + myRandomBodyPart + " is more " + myRandomAdjective + " than a " + myRandomAnimal + "’s " + myRandomAnimalPart + ".";
+
+//Executing the random insult generator
+myRandomInsult;
+
+
+
+//Using the join Method
+myRandomInsult = ["Your", myRandomBodyPart, "is", "more", myRandomAdjective, "than", "a", myRandomAnimal + "'s", myRandomAnimalPart + "."].join(" ");
+
+myRandomInsult;
+
+
+/* I prefer the join method because you can pass a "space" as a parameter, 
+and you can arrange the strings, and variables into an array. 
+The code is more organized, readable and less likely to make a mistake. */
+
+// 4. Joining Numbers:
+// I would use the join Method ".join()" to join the numbers into a string
+let numberArray = [3, 2, 1];
+numberArray.join(">");

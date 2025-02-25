@@ -1,0 +1,25 @@
+// PROGRAMMING CHALLENGES
+
+//#1: SCOREKEEPER
+
+let scores = {
+    Thato: 0,
+    Sbusiso: 0,
+    Elinah: 0,
+    Jabulani: 0,
+};
+// I would use the plus-equal operator to increase their scores:
+// Say Elinah as just scored herself 7 points
+undefined
+scores["Elinah"] += 7;
+7
+scores.Elinah;
+7
+
+//This is how I would get the number 123
+myCrazyObject["some array"][2].number;
+123
+myCrazyObject["some array"][2]["number"]; //This would be another way to get the value 123
+123
+
+//The dot notation wouldn't work in the first directory of myCrazyObject when accessing the key "some array" since the key has a space. 
