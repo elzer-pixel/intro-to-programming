@@ -1,0 +1,122 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  p {
+    font-size: 2.5em;
+    color: white;
+  }
+  .eye {
+    background-color: brown;
+    width: 30%;
+    height: 20%;
+    border-radius: 50%;
+  }
+  .arm {
+    background-color: #ff6600;
+    position: absolute;
+    top: 35%;
+    width: 5%;
+    height: 40%;
+  }
+  
+  #head {
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+    background-color: #ff6600;
+    position: absolute;
+    left: 33%;
+    top: 5%;
+    box-shadow: 4%;
+  }
+  #righteye {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+  }
+  #lefteye {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+  }
+  #nose {
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    width: 10%;
+    height: 30%;
+    background-color: brown;
+    border-radius: 40%;
+  }
+  #nostrilleft {
+    background-color: brown;
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+  }
+  #nostrilright {
+    background-color: brown;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+  }
+  
+  #mouth {
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    left: 25%;
+    top: 70%;
+    background-color: brown;
+    border-radius: 40%;
+  }
+  #body {
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    width: 45%;
+    height: 55%;
+    background-color: #ff6600;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 30%;
+  }
+  
+  #rightarm {
+    position: absolute;
+    left: 15%;
+    width: 5%;
+    height: 45%;
+    transform: rotate(45deg);
+  }
+  #leftarm {
+    position: absolute;
+    left: 75%;
+    width: 5%;
+    height: 45%;
+    transform: rotate(135deg);
+  }
+  
+  .feet {
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    background-color: brown;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+  }
+  #rightfoot {
+    left: 36%;
+    top: 91%;
+  }
+  #leftfoot {
+    left: 50%;
+    top: 91%;
+  }
+  
