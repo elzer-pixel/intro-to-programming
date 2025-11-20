@@ -1,0 +1,107 @@
+/* ---- Page Background ---- */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f8d7ff, #c3e5ff, #d1ffd6);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* ---- Table Styling ---- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f7ff;
+}
+
+tr:hover {
+    background-color: #e3f2ff;
+}
+
+/* ---- Buttons ---- */
+button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Add button */
+button[onclick^="add_selection"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Remove button */
+button[onclick^="remove_selection"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* ---- Total Amount Styling ---- */
+#total {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+/* ---- Checkout Button ---- */
+#checkoutBtn {
+    display: block;
+    margin: 25px auto;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #4a90e2;  /* Purple highlight */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: 0.25s ease;
+}
+
+#checkoutBtn:hover {
+    background-color: #732d91;
+    transform: translateY(-2px);
+}
+
+#checkoutBtn:active {
+    transform: scale(0.97);
+}
